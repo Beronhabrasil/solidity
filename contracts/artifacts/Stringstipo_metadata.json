@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ola1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ola2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ola3",
+						"type": "string"
+					}
+				],
+				"name": "getWords",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ola",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stringstipo.sol": "Stringstipo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stringstipo.sol": {
+			"keccak256": "0x5b3945f1763c2f8601c5f85a11fdf8ad829aedbde4fdf049f434e568f96133b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6463acfe11c4de81f16cb989c992d7478f215f8bf3f482f3c8dd0b2161777b0f",
+				"dweb:/ipfs/QmdyDNwecc4LyhY8sxcybNZQGBCGCDQLap3Ta93G8s8gMp"
+			]
+		}
+	},
+	"version": 1
+}

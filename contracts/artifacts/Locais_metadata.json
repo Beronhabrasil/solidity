@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/srtorage_memory.sol": "Locais"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/srtorage_memory.sol": {
+			"keccak256": "0xe4c90d428f5cbf7ac0c482c447e377ca2fd2349bd9a8c3d9a18d4d5c3e7bab10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b799e432e907c61af243d45660820babdcd20b0826428259b52ac2ce67ae7dce",
+				"dweb:/ipfs/QmYb42AURPcFvSLG8BxkW2DcThgfHodMY9wsY6eQbtCQwm"
+			]
+		}
+	},
+	"version": 1
+}

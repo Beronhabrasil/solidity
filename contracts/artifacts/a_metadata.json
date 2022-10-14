@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initalSuppy",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contructor2.sol": "a"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contructor2.sol": {
+			"keccak256": "0x0e46c28f1d74dd9938e1507bb73eb66bab31fa6b1119f2a395c3fd8b487c8cac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76d1817c69750e6a5f6da9ceb88fe46e1310cd55c8dd31acb958fd3f96f04f04",
+				"dweb:/ipfs/QmaGKum7H1XTaB6JrmdFPRSg5GERty9kzckyyLvKM8UYC2"
+			]
+		}
+	},
+	"version": 1
+}

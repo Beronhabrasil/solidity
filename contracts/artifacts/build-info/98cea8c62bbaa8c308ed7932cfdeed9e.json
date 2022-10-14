@@ -1,0 +1,68 @@
+{
+	"id": "98cea8c62bbaa8c308ed7932cfdeed9e",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.8",
+	"solcLongVersion": "0.8.8+commit.dddeac2f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/amarzena.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.8.8;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/amarzena.sol": {
+				"ast": {
+					"absolutePath": "contracts/amarzena.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"=",
+								"0.8",
+								".8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						}
+					],
+					"src": "33:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

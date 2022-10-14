@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSuply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/modifier.sol": "mofificadores"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/modifier.sol": {
+			"keccak256": "0x5840bac3d0bfe5dc58a6e61e3531761b7cd43a492c99e3d841ce7d21d49ce092",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a4de0415a825f5ac3dcc14064146279789714ac49f017e623862e549f774297",
+				"dweb:/ipfs/Qma1PjUubPgaqfBxnAwTgqMkBjVkgjdNHSLGsBG9BTFq6Q"
+			]
+		}
+	},
+	"version": 1
+}

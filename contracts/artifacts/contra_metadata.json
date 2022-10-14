@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "multiple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplicar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_valor2",
+						"type": "uint256"
+					}
+				],
+				"name": "soma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contractCurso.sol": "contra"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contractCurso.sol": {
+			"keccak256": "0x4907182784efebb88cc929ea32cfa0bed52d7e93f52dd807c52ed6340251050d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5498bd6ba656622f07c9c6555a14db041487d49c312bd3ba4f60894454f78a9",
+				"dweb:/ipfs/QmcBF5812XkBhry63MBMv1dy2r4TS1UaQJTYFZ8J2DyRiQ"
+			]
+		}
+	},
+	"version": 1
+}

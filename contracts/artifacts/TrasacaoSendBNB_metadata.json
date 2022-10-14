@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_position",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "alterarNomes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_position",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_position",
+						"type": "uint256"
+					}
+				],
+				"name": "lerNome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					}
+				],
+				"name": "salvarNomes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transacaoSendBNB.sol": "TrasacaoSendBNB"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transacaoSendBNB.sol": {
+			"keccak256": "0x35a47e37e72eb9527333fb9e5f630702e5de2917f2be046af44199545140e4e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://092d45ff5b983a671294522cb5e51f49d51b431369cf75565fb7b58353c759f4",
+				"dweb:/ipfs/QmRuqkosMirB8wT7kmyoLiSunF3iD9yfMKgFvJwKoWKnnH"
+			]
+		}
+	},
+	"version": 1
+}

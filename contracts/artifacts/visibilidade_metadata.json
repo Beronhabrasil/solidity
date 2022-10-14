@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "qualNome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "qualNomeE",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/visibilidade.sol": "visibilidade"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/visibilidade.sol": {
+			"keccak256": "0x51eaac7a8e62f37ba155519f997fd80a0486a19391dcec7da18616e55316c053",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://205067cb7e97f8a0f0fb7bde5dab14090eb2c9ec53178701df8dcc900c992ba7",
+				"dweb:/ipfs/QmXW4bfy68dnoU12dLNBa9fbvn3wmL3qfYWX5hphoZqahw"
+			]
+		}
+	},
+	"version": 1
+}

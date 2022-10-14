@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_meunome",
+						"type": "string"
+					}
+				],
+				"name": "setBirth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variaveisImprisitas.sol": "visibilidadeV"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variaveisImprisitas.sol": {
+			"keccak256": "0xf9f2cd00f08f5c6bc558e2bcea9a6d0fe840a58649b79c044e798e2a805e3f2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://485ff21deb0ba25cfaada929b4b65af71390e8a38dce5270f08cb49724f44384",
+				"dweb:/ipfs/Qmc4Q7W4d76WKmSeadBpTNC7Y5FWVPiHojp976HEpGovL7"
+			]
+		}
+	},
+	"version": 1
+}

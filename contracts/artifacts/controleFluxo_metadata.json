@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"name": "checar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"name": "salvar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/controleFluxo.sol": "controleFluxo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/controleFluxo.sol": {
+			"keccak256": "0x5cee33fd86164b570b71265747ebaf4827c85c91d9bf0227d8ebae0aa42d2f6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://befdec4bce8cd537a1167793bcaae8a7c471d165bb6f9e9734c7e8b67a53513d",
+				"dweb:/ipfs/QmRGWmp7h1mwMGwLZ9Qt8DNS7vPz4SHSSxbWx5AjU6bXt4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gethello",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funcoes2visi.sol": "Visibi"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funcoes2visi.sol": {
+			"keccak256": "0xe3cad12097bc528bfb655f9274d02a18a166f5a3d6a75f69a5539b5e4f8c78e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ba714ff96e51eaab24162867c9c7637a4788a5e04c33a98a60eeb207ca3de10",
+				"dweb:/ipfs/Qme7k8dr1fthCVScuZYWtRzTqD9AEbAPuK21wSHDE4mjUg"
+			]
+		}
+	},
+	"version": 1
+}

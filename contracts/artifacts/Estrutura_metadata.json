@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eunus.sol": "Estrutura"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eunus.sol": {
+			"keccak256": "0x323c13553a1c70281fae3403acfa36a2bd29e9d5937a3603f35c7658df0fff88",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e30b089aad1bc4e39e8cf18777d17b210ee55d33196ed04ec6e4887ebc8744f",
+				"dweb:/ipfs/QmfDp2jGkSKQ4ThKd2S4tocBe2Vr8v58H2DMQynrWzDGCZ"
+			]
+		}
+	},
+	"version": 1
+}

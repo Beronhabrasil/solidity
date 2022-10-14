@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gethello",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variableEstados.sol": "VariableE"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variableEstados.sol": {
+			"keccak256": "0xe2204277d65dd118fcb2d073ed3676b1e430218a1282e2be3fa9915fca72c1bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f45e32014a1866dd74d7558690691cf775388e16e29ad4ef945bc1d9f5f58be4",
+				"dweb:/ipfs/QmNYDjf4GXD8PaUQrJxdbFsTn9ibG2Ewf9xLisvMNEh2bs"
+			]
+		}
+	},
+	"version": 1
+}

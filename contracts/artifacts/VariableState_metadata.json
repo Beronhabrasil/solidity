@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AlteraNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variableEstados.sol": "VariableState"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variableEstados.sol": {
+			"keccak256": "0xc56e149413693a849ce46e8738ac571158a084c56351d2be1a79d96afa42e7b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b43cc7bf682e1050073d6b716f3f32bb1a135e49bb6aaecf731d4698fc2a6c1",
+				"dweb:/ipfs/QmZQHS5WUTe8HigTLQcqWoP7bmNfjJMMUhz8nV1mnTdH6c"
+			]
+		}
+	},
+	"version": 1
+}

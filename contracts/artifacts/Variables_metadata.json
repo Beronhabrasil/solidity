@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ola",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variaveis.sol": "Variables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variaveis.sol": {
+			"keccak256": "0x8e620b02f47ca4ef2592ba9ee76f27711c8e9b0b7427d23dba7871b88d3747ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58ad08bde177cd9a2eaf940b291c7853ef1900cad6a9b526f23c6edb4aace7dc",
+				"dweb:/ipfs/QmWb873Ju4dENV82DsmJC7X8EGVMHYdKW1dWuZrVHo8e9i"
+			]
+		}
+	},
+	"version": 1
+}

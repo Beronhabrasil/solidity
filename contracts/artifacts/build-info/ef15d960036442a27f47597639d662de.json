@@ -1,0 +1,325 @@
+{
+	"id": "ef15d960036442a27f47597639d662de",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/controleFluxo.sol": {
+				"content": "\r\n// SPDX-License-Identifier: MIT\r\npragma solidity =0.8.7;\r\n\r\n contract controleFluxo{\r\n     \r\n }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/controleFluxo.sol": {
+				"controleFluxo": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"contracts/controleFluxo.sol\":63:97  contract controleFluxo{\r... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"contracts/controleFluxo.sol\":63:97  contract controleFluxo{\r... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220467677f3bb482b2c244b18dc1e035a0d95570f90964f4ee17f1bdfa6b202127264736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220467677f3bb482b2c244b18dc1e035a0d95570f90964f4ee17f1bdfa6b202127264736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID PUSH23 0x77F3BB482B2C244B18DC1E035A0D95570F90964F4EE17F SHL 0xDF 0xA6 0xB2 MUL SLT PUSH19 0x64736F6C634300080700330000000000000000 ",
+							"sourceMap": "63:34:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea2646970667358221220467677f3bb482b2c244b18dc1e035a0d95570f90964f4ee17f1bdfa6b202127264736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID PUSH23 0x77F3BB482B2C244B18DC1E035A0D95570F90964F4EE17F SHL 0xDF 0xA6 0xB2 MUL SLT PUSH19 0x64736F6C634300080700330000000000000000 ",
+							"sourceMap": "63:34:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 63,
+									"end": 97,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220467677f3bb482b2c244b18dc1e035a0d95570f90964f4ee17f1bdfa6b202127264736f6c63430008070033",
+									".code": [
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 63,
+											"end": 97,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/controleFluxo.sol\":\"controleFluxo\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/controleFluxo.sol\":{\"keccak256\":\"0x0f78f16370bdb4bbb4e890ae05626b45a0ba885f3035c07b457d32bba6fc38e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4eadf475285e89d9e11d7805401589e5ad2b696b80fccf5e9b85b84073d7ccb6\",\"dweb:/ipfs/QmRebPJ7MyznAN8egwVkEbBWksfF6VcCvGFFC5E3YYAoRU\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/controleFluxo.sol": {
+				"ast": {
+					"absolutePath": "contracts/controleFluxo.sol",
+					"exportedSymbols": {
+						"controleFluxo": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"=",
+								"0.8",
+								".7"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "controleFluxo",
+							"nameLocation": "72:13:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "63:34:0",
+							"usedErrors": []
+						}
+					],
+					"src": "35:62:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

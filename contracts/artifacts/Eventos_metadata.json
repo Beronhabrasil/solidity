@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_dequem",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_paraonde",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_quantidade",
+						"type": "uint256"
+					}
+				],
+				"name": "Transferecia",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_praquem",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantidade",
+						"type": "uint256"
+					}
+				],
+				"name": "tranfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/modifier.sol": "Eventos"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/modifier.sol": {
+			"keccak256": "0xaf1df66ce935620a562eca2345504f898002c07f15a0fdb0d72bfa5ed74c9606",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec2cb21bad39746ef4deb20e29684bc0530fd5626ee1e258c522d7296784d393",
+				"dweb:/ipfs/QmQhVZxHxMzanPH6P3Rzgm8cpwHi3zK4JCiw5rWYXd9ooS"
+			]
+		}
+	},
+	"version": 1
+}

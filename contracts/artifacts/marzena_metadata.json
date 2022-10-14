@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/amarzena.sol": "marzena"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/amarzena.sol": {
+			"keccak256": "0x2647034071982777a699644a68d3067b13d73e172b9567cac0ad3581dd2089f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32c30e4cb540daf60a92a7b50173003ec797ea772c4b91a3b6a7796b50620ebb",
+				"dweb:/ipfs/QmWbbY6EERAkZ2dmEAiYp1wDEnb8wiiahsgnZdzKuFe925"
+			]
+		}
+	},
+	"version": 1
+}

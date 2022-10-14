@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pegaSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pegaSaldoContrato",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contractCurso.sol": "contratoCurso"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contractCurso.sol": {
+			"keccak256": "0xc3751bbc34e709744dcf1e6b1ad72243ab8c96e61411d4d276a0364ad1e128e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b8da250e61fb0be832c5aac07fbdfb74844d91f3e2b09b323e7f8332ad719c2",
+				"dweb:/ipfs/QmUB1ubd3U8yNWffwngCnnaNmMbbG4GcYEvjmdNWHStGKL"
+			]
+		}
+	},
+	"version": 1
+}

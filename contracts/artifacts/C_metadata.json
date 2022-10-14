@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eunus.sol": "C"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eunus.sol": {
+			"keccak256": "0x6b742e5b9071efece3d3492c6ffba275affb71d5c17015f9ffdfd926e7463268",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae1d51b544f8d2e828b2804cf2840ba6ca05f6bc415c0c13e6049a0f06fc934c",
+				"dweb:/ipfs/Qmd7iwhQtbXVM6Qm7VXWpUoZ5CSes2H2e57T9SfKho8sgf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "calcula",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUser",
+				"outputs": [
+					{
+						"internalType": "enum Categorias.ESTADO",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eunus.sol": "Categorias"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eunus.sol": {
+			"keccak256": "0x08b1dcd00d7a2722af00f1f030cc62435f6c1b02cf8851eea6310a82718a29cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7958dfc9df385d7b73fb4be5951a72094f68b2b9b89c4960a22327ed6a258877",
+				"dweb:/ipfs/QmPNRxS7opz1PGuHw2yeK4TRoZrCEVCJZSU77Kwr8puE9G"
+			]
+		}
+	},
+	"version": 1
+}

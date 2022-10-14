@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contagem",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementEx",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incremetal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funcoes2visi.sol": "Visibilidade"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funcoes2visi.sol": {
+			"keccak256": "0xd0f5583d0b013a767f4e8aed7285b5548e6920d8cb3f8a0646deb3c232c5a8d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67e9b3c1876118c418a17a8086a3b8a64bd709ba819333c126e009ac1e10196e",
+				"dweb:/ipfs/QmS82bSAkM4TuAaMFbEiDMzmufEELNp8xzpLLGNVzRnYCu"
+			]
+		}
+	},
+	"version": 1
+}

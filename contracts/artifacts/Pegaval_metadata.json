@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gethello",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/functions.sol": "Pegaval"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/functions.sol": {
+			"keccak256": "0x4e215aefde75ab501cf413b4fe13dacf0cc0f11e46931ae1316f41cb6a188183",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://959eb4a2bd69440937959e0d37c53b45f927a05446e19b7e1a882203bc582a26",
+				"dweb:/ipfs/QmSrvPTmAjTFoCWxWwkXpHtsztN4CPshepPGLVUKGG6Hdt"
+			]
+		}
+	},
+	"version": 1
+}
